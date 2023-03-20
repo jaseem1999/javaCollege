@@ -14,7 +14,7 @@ class Product{
                 System.out.println("Enter p3 Details");
                 p3.read(pcode,pprice,pname);
                 System.out.println("Lowest Price product Details");
-                if(p1.pp < p2.pp){
+                if(p1.pp < p2.pp && p1.pp < p3.pp){
                         System.out.println("Lowest Price product is :: "+p1.pn+" Product Price :: "+p1.pp+" Product Code :: "+ p1.pc);
                 }else if(p1.pp < p3.pp){
                         System.out.println("Lowest Price Product is:: "+p2.pn+"Product price :: "+p2.pp+" Product code :: "+ p2.pp);
